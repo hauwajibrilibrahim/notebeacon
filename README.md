@@ -51,7 +51,7 @@ Follow these steps to set up the project locally:
 
 2. Navigate to the project directory:
    ```bash
-   cd note-beacon
+   cd notebeacon
    ```
 
 3. Install dependencies:
@@ -69,7 +69,7 @@ Follow these steps to set up the project locally:
 ## Folder Structure
 
 ```plaintext
-note-beacon/
+notebeacon/
 ├── public/
 │   ├── index.html
 │   └── favicon.ico
