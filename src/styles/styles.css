@@ -1,0 +1,114 @@
+.app {
+  max-width: 800px;
+  margin: 20px auto;
+  font-family: Arial, sans-serif;
+}
+
+button {
+  padding: 10px 20px;
+  margin-left: 10px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #218838;
+}
+.notes-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.note, .note.new {
+  background: #f4f4f4;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.note textarea {
+  width: 100%;
+  border: none;
+  resize: none;
+  background: none;
+  resize: none;
+  outline: none;
+}
+.note h3 {
+  margin: 0;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.note input {
+  width: 90%;
+  padding: 8px;
+  margin-bottom: 10px;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  outline: none;
+}
+
+.note-footer small {
+  display: block;
+  margin-top: 5px;
+  color: gray;
+}
+
+.note-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.search-bar {
+  margin: 20px 0;
+}
+
+.search-bar input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  outline: none;
+}
+
+
+.full-note {
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin: 20px auto;
+  max-width: 600px;
+  background-color: #fff;
+}
+
+.full-note button {
+  margin-right: 10px;
+}
+
+.full-note input{
+  width: 90%;
+  padding: 8px;
+  margin-bottom: 10px;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  outline: none;
+}
+.full-note textarea {
+  width: 100%;
+  border: none;
+  resize: none;
+  background: none;
+  resize: none;
+  outline: none;
+}
