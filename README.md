@@ -120,10 +120,10 @@ Contributions are welcome! Please follow these steps to contribute:
 
 ### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Deployed on netlify and accessible via the link [https://notebeacon.netlify.app/]
 
 
-**Developed with passion using React.js.**
+**Developed with passion using React.js**
 
 
 
