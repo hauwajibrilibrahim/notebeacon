@@ -1,9 +1,11 @@
 import React from 'react';
 import { FaTrash } from 'react-icons/fa';
 
-const Note = ({ id, title, date, handleDeleteNote, handleViewNote }) => {
+const Note = ({ note, handleDeleteNote, handleViewNote }) => {
+  const { id, title, date } = note;
+
   return (
-    <div className="note" onClick={() => handleViewNote({ id, title, date })}>
+    <div className="note" onClick={() => handleViewNote(note)}>
       <h3>{title}</h3>
       <div className="note-footer">
         <small>{date}</small>
